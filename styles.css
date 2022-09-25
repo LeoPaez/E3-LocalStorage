@@ -1,0 +1,107 @@
+body {
+    background-color: burlywood;
+    font-family: sans-serif;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+}
+.titulo {
+    font-size: 60px;
+    color: white;
+}
+.t-verde {
+    color: green;
+}
+.t-rojo {
+    color: red;
+}
+.subtitulo {
+    font-size: 30px;
+    color: orangered;
+}
+.tachado {
+    text-decoration: line-through;
+}
+
+.pizzas-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pizzas {
+    background-color: rgba(255, 68, 0, 0.1);
+    width: 600px;
+    height: 340px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.delete {
+    position: absolute;
+    width: 18px;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.pizzas-name {
+    color: green;
+    font-size: 32px;
+}
+.pizzas-img {
+    width: 230px;
+    height: 230px;
+    border-radius: 4px;
+}
+.pizzas-ing {
+    font-size: 16px;
+    color: rgb(68, 68, 68);
+}
+.pizzas-price {
+    font-size: 26px;
+    color: orangered;
+}
+.pizzas-input {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 2px;
+}
+.pizzas-btn {
+    background-color: orangered;
+    border: none;
+    color: #FFF;
+    padding: 8px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.null {
+    color: grey;
+}
+
+.form {
+    position: relative;
+}
+.falla {
+    color: red;
+    position: absolute;
+    top: 24px;
+}
+.ok {
+    display: none;
+}
+.clear {
+    margin-top: 42px;
+    border: none;
+    padding: 4px 16px;
+    border-radius: 2px;
+}
+.hidden {
+    display: none;
+}
