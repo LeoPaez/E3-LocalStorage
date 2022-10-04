@@ -55,14 +55,17 @@ body {
     cursor: pointer;
     opacity: 0.6;
 }
+.pizzas-img {
+    border-radius: 4px;
+    width: 50%;
+    max-width: 240px;
+}
+.pizzas-text {
+    width: 50%;
+}
 .pizzas-name {
     color: green;
     font-size: 32px;
-}
-.pizzas-img {
-    width: 230px;
-    height: 230px;
-    border-radius: 4px;
 }
 .pizzas-ing {
     font-size: 16px;
@@ -85,6 +88,9 @@ body {
     border-radius: 2px;
     cursor: pointer;
 }
+.pizzas-btn:hover {
+    opacity: 0.8;
+}
 .null {
     color: grey;
 }
@@ -105,6 +111,7 @@ body {
     border: none;
     padding: 4px 16px;
     border-radius: 2px;
+    cursor: pointer;
 }
 .hidden {
     display: none;

@@ -31,7 +31,7 @@ const pizzas = [
     {
         "id": 5,
         "nombre": "Calabresa",
-        "ingredientes": ["Tomate", "Mozzarella", "Pepperoni"],
+        "ingredientes": ["Tomate", "Mozzarella", "Calabresa"],
         "precio": 700,
         "img": "calabresa"
     },
@@ -74,8 +74,8 @@ const renderPizza = (pizza) => {
     const {id, img, nombre, ingredientes, precio} = pizza; // destructuring
     return ` 
         <div class="pizzas" id="pizzas">
-        <img class="delete" src="/img/close.png" alt="borrar" data-id="${id}">
-        <img class="pizzas-img" src="/img/${img}.jpg" alt="imagen pizza">
+            <img class="delete" src="/img/close.png" alt="borrar" data-id="${id}">
+            <img class="pizzas-img" src="/img/${img}.jpg" alt="imagen pizza">
             <div class="pizzas-text">
                 <h2 class="pizzas-name">${nombre}</h2>
                 <p class="pizzas-ing">${ingredientes}</p>
